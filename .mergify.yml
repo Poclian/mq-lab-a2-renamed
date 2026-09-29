@@ -1,0 +1,6 @@
+pull_request_rules:
+  - name: MARKER_FROM_A2_REPO
+    conditions: []
+    actions:
+      comment:
+        message: "secret-marker-from-a2"
